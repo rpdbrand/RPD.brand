@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RPD - Rules Provide Direction. Streetwear dari Jogja untuk yang bikin aturan sendiri.">
+  <title>RPD | Rules Provide Direction</title>
+  <link rel="icon" href="https://fav.farm/🔥">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+  
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: 'Inter', sans-serif; 
+      color: #FFF; 
+      text-align: center; 
+      min-height: 100vh;
+      background: 
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.95)),
+        url('https://images.unsplash.com/photo-1519501025264-65ba0be90b52?q=80&w=2070&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding: 60px 20px;
+    }
+    .container { max-width: 600px; width: 100%; margin: 0 auto; }
+    h1 { 
+      font-family: 'Anton', sans-serif; font-size: 5.5rem; letter-spacing: 8px; margin-bottom: 10px; color: #fff;
+      text-shadow: 0 0 15px #FF3B30, 0 0 30px #FF3B30, 0 0 60px #FF3B30;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 15px #FF3B30, 0 0 30px #FF3B30; }
+      to { text-shadow: 0 0 25px #FF3B30, 0 0 50px #FF3B30, 0 0 70px #FF3B30; }
+    }
+    .tagline { font-size: 1.1rem; color: #FF3B30; margin-bottom: 50px; font-weight: 600; letter-spacing: 5px; text-transform: uppercase; }
+    .desc { font-size: 1.15rem; color: #DDD; line-height: 2; margin-bottom: 60px; text-shadow: 0 2px 15px rgba(0,0,0,1); }
+    .desc span { color: #FFF; font-weight: 600; }
+    .divider { width: 80px; height: 3px; background: #FF3B30; margin: 0 auto 60px auto; box-shadow: 0 0 20px #FF3B30; }
+    .katalog-section { margin-bottom: 60px; }
+    .katalog-title { font-size: 0.95rem; color: #999; margin-bottom: 25px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; }
+    .katalog-empty {
+      background: rgba(21, 21, 21, 0.8); border: 1px solid #FF3B30; border-radius: 16px; padding: 70px 30px;
+      backdrop-filter: blur(20px); box-shadow: 0 0 50px rgba(255, 59, 48, 0.3); transition: 0.4s;
+    }
+    .katalog-empty:hover { box-shadow: 0 0 70px rgba(255, 59, 48, 0.5); transform: translateY(-8px); }
+    .katalog-empty h3 { font-size: 1.8rem; font-weight: 900; margin-bottom: 12px; letter-spacing: 3px; }
+    .katalog-empty p { color: #888; font-size: 1.05rem; }
+    .btn { 
+      background: #FFF; color: #000; padding: 20px 50px; text-decoration: none; font-weight: 900; border-radius: 12px;
+      display: inline-block; font-size: 1.05rem; border: 2px solid #FFF; letter-spacing: 1.5px; text-transform: uppercase; transition: 0.4s;
+    }
+    .btn:hover { background: #FF3B30; color: #FFF; border-color: #FF3B30; box-shadow: 0 0 40px #FF3B30; transform: translateY(-5px); }
+    .social { margin-top: 80px; }
+    .social p { color: #666; margin-bottom: 25px; font-size: 0.9rem; letter-spacing: 3px; text-transform: uppercase; }
+    .social-links a { color: #FFF; text-decoration: none; margin: 0 20px; font-weight: 600; font-size: 1.05rem; transition: 0.3s; }
+    .social-links a:hover { color: #FF3B30; text-shadow: 0 0 15px #FF3B30; }
+    footer { margin-top: 80px; color: #444; font-size: 0.85rem; letter-spacing: 1px; padding-top: 30px; border-top: 1px solid #222; }
+    @media (max-width: 600px) {
+      h1 { font-size: 4rem; letter-spacing: 5px; }
+      body { background-attachment: scroll; padding: 40px 15px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>RPD</h1>
+      <p class="tagline">Rules Provide Direction</p>
+    </header>
+    <section>
+      <p class="desc">
+        Capek disuruh "ikutin aja alurnya"?<br>
+        <span>RPD ga percaya itu.</span><br><br>
+        Streetwear dari Jogja untuk yang lost.<br>
+        Bikin aturan sendiri. Tentuin arah sendiri.
+      </p>
+    </section>
+    <div class="divider"></div>
+    <section class="katalog-section">
+      <p class="katalog-title">First Drop</p>
+      <div class="katalog-empty">
+        <h3>COMING SOON</h3>
+        <p>We're cooking something real.</p>
+      </div>
+    </section>
+    <a href="https://instagram.com/rpd.brand" class="btn" target="_blank">Follow @rpd.brand</a>
+    <div class="social">
+      <p>From Jogja With Purpose</p>
+      <div class="social-links">
+        <a href="https://instagram.com/rpd.brand" target="_blank">Instagram</a>
+        <a href="https://tiktok.com/@rpd.brand" target="_blank">TikTok</a>
+      </div>
+    </div>
+    <footer>© 2026 RPD. All Rights Reserved.<br>Made with purpose in Yogyakarta, Indonesia</footer>
+  </main>
+</body>
+</html>
